@@ -149,7 +149,7 @@
     <use href="#o" transform="translate(75,0)"/>
     <use href="#k" transform="translate(150,0)"/>
     <use href="#ng" transform="translate(175,0)"/>
-    <use href="#sh" transform="translate(250,0), scale(-1,1)"/>
+    <use href="#sh" transform="translate(250,0) scale(-1,1)"/>
     <use href="#o" transform="translate(275,0)"/>
     <use href="#p" transform="translate(350,0)"/>
   </g>
@@ -184,9 +184,14 @@
   </g>
 <!-- WORDS -->
 
+</defs>
+
 <!-- ===== RENDERING ===== -->
 <g stroke="black" stroke-width="10" stroke-linecap="square" fill="none">
-  
+  <!-- Copy this use tag for as many glyphs as you want. 
+       Change the id to the romanized version of the glyph you want,
+       or if you're using a word/number, change the id to that. -->
+  <use href="#p" transform="translate(50,0)"/> 
 </g>
 </svg>
 
