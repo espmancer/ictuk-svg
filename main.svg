@@ -214,6 +214,15 @@
     <use href="#ough" transform="translate(175,50)"/> 
     <use href="#k" transform="translate(200,0)"/> 
   </g>
+
+<!-- PHRASES -->
+  <!-- fazhoofazhoughktuf -->
+  <g id="fazhoofazhoughktuf">
+    <use href="#fazho" transform="translate(0,0)"/> 
+    <use href="#o" transform="translate(250,-75)"/> 
+    <use href="#fazhoughk" transform="translate(250,0)"/>
+    <use href="#tuf" transform="translate(475,0)"/>  
+  </g>
 </defs>
 
 <!-- ===== RENDERING ===== -->
