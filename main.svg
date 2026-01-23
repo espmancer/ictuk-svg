@@ -1,0 +1,193 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+   width="2000" height="950"
+   viewBox="0 0 1000 900">
+
+<!-- ===== GLYPH DEFINITIONS (LOCAL COORDS ONLY) ===== -->
+<defs>
+<!-- LETTERS -->
+  <!-- P -->
+  <g id="p">
+    <line x1="0" y1="0" x2="0" y2="100"/>
+    <line x1="0" y1="0" x2="50" y2="0"/>
+  </g>
+
+  <!-- B -->
+  <g id="b">
+    <line x1="0" y1="0" x2="0" y2="100"/>
+    <line x1="0" y1="100" x2="50" y2="100"/>
+  </g>
+
+  <!-- T -->
+  <g id="t">
+    <line x1="50" y1="0" x2="50" y2="100"/>
+    <line x1="0" y1="0" x2="50" y2="0"/>
+  </g>
+
+  <!-- K -->
+  <g id="k">
+    <line x1="0" y1="0" x2="0" y2="50"/>
+    <line x1="0" y1="50" x2="50" y2="100"/>
+  </g>
+
+  <!-- F -->
+  <g id="f">
+    <line x1="0" y1="0" x2="0" y2="50"/>
+    <line x1="0" y1="0" x2="50" y2="0"/>
+  </g>
+
+  <!-- Sh -->
+  <g id="sh">
+    <line x1="0" y1="0" x2="0" y2="50"/>
+    <line x1="0" y1="0" x2="50" y2="50"/>
+  </g>
+
+  <!-- Zh -->
+  <g id="zh">
+    <line x1="0" y1="0" x2="0" y2="50"/>
+  </g>
+
+  <!-- H -->
+  <g id="h">
+    <line x1="0" y1="0" x2="0" y2="50"/>
+    <line x1="0" y1="50" x2="50" y2="50"/>
+    <line x1="50" y1="50" x2="50" y2="100"/>
+  </g>
+
+  <!-- U -->
+  <g id="u">
+    <line x1="0" y1="0" x2="0" y2="50"/>
+    <line x1="0" y1="50" x2="50" y2="50"/>
+    <line x1="0" y1="0" x2="50" y2="0"/>
+    <line x1="50" y1="0" x2="50" y2="50"/>
+  </g>
+
+  <!-- O -->
+  <g id="o">
+    <line x1="0" y1="0" x2="0" y2="50"/>
+    <line x1="0" y1="50" x2="50" y2="50"/>
+    <line x1="0" y1="0" x2="50" y2="0"/>
+  </g>
+
+  <!-- Ough -->
+  <g id="ough">
+    <line x1="0" y1="0" x2="0" y2="50"/>
+    <line x1="0" y1="50" x2="50" y2="50"/>
+    <line x1="0" y1="0" x2="50" y2="50"/>
+  </g>
+
+  <!-- a -->
+  <g id="a">
+    <line x1="0" y1="0" x2="0" y2="50"/>
+    <line x1="0" y1="0" x2="50" y2="50"/>
+    <line x1="0" y1="50" x2="50" y2="100"/>
+  </g>
+
+  <!-- * -->
+  <g id="star">
+    <line x1="0" y1="0" x2="0" y2="50"/>
+    <line x1="0" y1="0" x2="50" y2="50"/>
+    <line x1="0" y1="50" x2="-50" y2="100"/>
+  </g>
+
+  <!-- Mb -->
+  <g id="mb">
+    <line x1="0" y1="0" x2="0" y2="50"/>
+    <line x1="0" y1="50" x2="50" y2="50"/>
+    <line x1="0" y1="50" x2="50" y2="100"/>
+  </g>
+
+  <!-- Ng -->
+  <g id="ng">
+    <line x1="0" y1="0" x2="0" y2="50"/>
+    <line x1="0" y1="50" x2="50" y2="0"/>
+    <line x1="0" y1="50" x2="50" y2="100"/>
+  </g>
+<!-- PUNCTUATION -->
+  <!-- period -->
+  <g id="period">
+    <line x1="0" y1="0" x2="0" y2="50"/>
+    <line x1="0" y1="50" x2="50" y2="100"/>
+    <line x1="0" y1="50" x2="-50" y2="100"/>
+  </g>
+
+<!-- NUMBERS -->
+  <!-- shazho (10^9) -->
+  <g id="shazho">
+    <use href="#sh" transform="translate(50,0) scale(-1,1)"/>
+    <use href="#a" transform="translate(75,0)"/>
+    <use href="#zh" transform="translate(150,50)"/>
+    <use href="#o" transform="translate(175,50)"/>
+  </g>
+
+  <!-- ngpangshop (10^8) -->
+  <g id="ngpangshop">
+    <use href="#ng" transform="translate(50,0) scale(-1,1)"/>
+    <use href="#p" transform="translate(75,0)"/>
+    <use href="#a" transform="translate(150,0)"/>
+    <use href="#ng" transform="translate(225,0)"/>
+    <use href="#sh" transform="translate(300,0) scale(-1,1)"/>
+    <use href="#o" transform="translate(325,0)"/>
+    <use href="#p" transform="translate(400,0)"/>
+  </g>
+
+  <!-- pazhngahop (10^7) -->
+  <g id="pazhngahop">
+    <use href="#p" transform="translate(50,0), scale(-1,1)"/>
+    <use href="#a" transform="translate(75,0)"/>
+    <use href="#zh" transform="translate(150,0)"/>
+    <use href="#ng" transform="translate(175,0)"/>
+    <use href="#a" transform="translate(250,0)"/>
+    <use href="#h" transform="translate(325,0)"/>
+    <use href="#o" transform="translate(400,50)"/>
+    <use href="#p" transform="translate(475,0)"/>
+  </g>
+
+  <!-- mbokngshop (10^6) -->
+  <g id="mbokngshop">
+    <use href="#mb" transform="translate(50,0) scale(-1,1)"/>
+    <use href="#o" transform="translate(75,0)"/>
+    <use href="#k" transform="translate(150,0)"/>
+    <use href="#ng" transform="translate(175,0)"/>
+    <use href="#sh" transform="translate(250,0), scale(-1,1)"/>
+    <use href="#o" transform="translate(275,0)"/>
+    <use href="#p" transform="translate(350,0)"/>
+  </g>
+
+  <!-- ngshop (10^5) -->
+  <g id="ngshop">
+    <use href="#ng" transform="translate(0,0)"/>
+    <use href="#sh" transform="translate(75,0) scale(-1,1)"/>
+    <use href="#o" transform="translate(100,0)"/>
+    <use href="#p" transform="translate(175,0)"/>
+  </g>
+
+  <!-- ngpa (10^4) -->
+  <g id="ngpa">
+    <use href="#ng" transform="translate(50,0) scale(-1,1)"/>
+    <use href="#p" transform="translate(75,0)"/>
+    <use href="#a" transform="translate(150,0)"/>
+  </g>
+
+  <!-- pazh (10^3) -->
+  <g id="pazh">
+    <use href="#p" transform="translate(50,0) scale(-1,1)"/>
+    <use href="#a" transform="translate(75,0)"/>
+    <use href="#zh" transform="translate(150,50)"/>
+  </g>
+
+  <!-- mbok (10^2) -->
+  <g id="mbok">
+    <use href="#mb" transform="translate(50,0) scale(-1,1)"/>
+    <use href="#o" transform="translate(75,0)"/>
+    <use href="#k" transform="translate(150,0)"/>
+  </g>
+<!-- WORDS -->
+
+<!-- ===== RENDERING ===== -->
+<g stroke="black" stroke-width="10" stroke-linecap="square" fill="none">
+  
+</g>
+</svg>
+
+
