@@ -183,7 +183,37 @@
     <use href="#k" transform="translate(150,0)"/>
   </g>
 <!-- WORDS -->
+  <!-- kofa -->
+  <g id="kofa">
+    <use href="#k" transform="translate(0,0)"/> 
+    <use href="#o" transform="translate(25,0)"/>
+    <use href="#f" transform="translate(100,0)"/> 
+    <use href="#a" transform="translate(175,0)"/>  
+  </g>
 
+  <!-- tuf -->
+  <g id="tuf">
+    <use href="#t" transform="translate(0,0)"/> 
+    <use href="#u" transform="translate(75,0)"/> 
+    <use href="#f" transform="translate(75,75)"/> 
+  </g>
+
+  <!-- fazho -->
+  <g id="fazho">
+    <use href="#f" transform="translate(0,0)"/> 
+    <use href="#a" transform="translate(75,0)"/> 
+    <use href="#zh" transform="translate(150,0)"/> 
+    <use href="#o" transform="translate(175,0)"/> 
+  </g>
+
+  <!-- fazhoughk -->
+  <g id="fazhoughk">
+    <use href="#f" transform="translate(0,0)"/> 
+    <use href="#a" transform="translate(75,0)"/> 
+    <use href="#zh" transform="translate(150,50)"/> 
+    <use href="#ough" transform="translate(175,50)"/> 
+    <use href="#k" transform="translate(200,0)"/> 
+  </g>
 </defs>
 
 <!-- ===== RENDERING ===== -->
@@ -191,8 +221,7 @@
   <!-- Copy this use tag for as many glyphs as you want. 
        Change the id to the romanized version of the glyph you want,
        or if you're using a word/number, change the id to that. -->
-  <use href="#p" transform="translate(50,0)"/> 
+  <use href="#k" transform="translate(50,0)"/> 
 </g>
 </svg>
-
 
