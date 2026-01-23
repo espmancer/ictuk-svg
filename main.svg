@@ -84,7 +84,7 @@
   </g>
 
   <!-- * -->
-  <g id="star">
+  <g id="*">
     <line x1="0" y1="0" x2="0" y2="50"/>
     <line x1="0" y1="0" x2="50" y2="50"/>
     <line x1="0" y1="50" x2="-50" y2="100"/>
@@ -182,6 +182,362 @@
     <use href="#o" transform="translate(75,0)"/>
     <use href="#k" transform="translate(150,0)"/>
   </g>
+
+
+  <!-- o (0), already exists -->
+
+  <!-- u (1), already exists -->
+
+  <!-- po (2) -->
+  <g id="po">
+    <use href="#p" transform="translate(0,0)"/>
+    <use href="#o" transform="translate(25,50)"/>
+  </g>
+
+  <!-- ush (3) -->
+  <g id="ush">
+    <use href="#u" transform="translate(0,0)"/>
+    <use href="#sh" transform="translate(75,0)"/>
+  </g>
+
+  <!-- ak (4) -->
+  <g id="ak">
+    <use href="#a" transform="translate(0,0)"/>
+    <use href="#k" transform="translate(75,0)"/>
+  </g>
+
+  <!-- mba (5) -->
+  <g id="mba">
+    <use href="#mb" transform="translate(0,0)"/>
+    <use href="#a" transform="translate(75,0)"/>
+  </g>
+
+  <!-- mbu (6) -->
+  <g id="mbu">
+    <use href="#mb" transform="translate(0,0)"/>
+    <use href="#u" transform="translate(75,50)"/>
+  </g>
+
+  <!-- fo (7) -->
+  <g id="fo">
+    <use href="#f" transform="translate(0,0)"/>
+    <use href="#o" transform="translate(75,0)"/>
+  </g>
+
+  <!-- fu (8) -->
+  <g id="fu">
+    <use href="#f" transform="translate(0,0)"/>
+    <use href="#u" transform="translate(75,0)"/>
+  </g>
+
+  <!-- zho (9) -->
+  <g id="zho">
+    <use href="#zh" transform="translate(0,0)"/>
+    <use href="#o" transform="translate(25,0)"/>
+  </g>
+
+  <!-- kap (A) -->
+  <g id="kap">
+    <use href="#k" transform="translate(0,0)"/>
+    <use href="#a" transform="translate(25,0)"/>
+    <use href="#p" transform="translate(100,0)">
+  </g>
+
+  <!-- sh (B) -->
+  <g id="sh">
+    <use href="#sh" transform="translate(0,0)"/>
+  </g>
+
+  <!-- * (10), already exists -->
+
+  <!-- *u (11) -->
+  <g id="*u">
+    <use href="#*" transform="translate(0,0)"/>
+    <use href="#u" transform="translate(0,75)"/>
+  </g>
+
+  <!-- *po (12) -->
+  <g id="*po">
+    <use href="#*" transform="translate(0,0)"/>
+    <use href="#po" transform="translate(0,75)"/>
+  </g>
+
+  <!-- *ush (13) -->
+  <g id="*ush">
+    <use href="#*" transform="translate(0,0)"/>
+    <use href="#ush" transform="translate(0,75)"/>
+  </g>
+
+  <!-- *ak (14) -->
+  <g id="*ak">
+    <use href="#*" transform="translate(0,0)"/>
+    <use href="#ak" transform="translate(0,75)"/>
+  </g>
+
+  <!-- *mba (15) -->
+  <g id="*mba">
+    <use href="#*" transform="translate(0,0)"/>
+    <use href="#mba" transform="translate(0,75)"/>
+  </g>
+
+  <!-- *mbu (16) -->
+  <g id="*mbu">
+    <use href="#*" transform="translate(0,0)"/>
+    <use href="#mbu" transform="translate(0,75)"/>
+  </g>
+
+  <!-- *fo (17) -->
+  <g id="*fo">
+    <use href="#*" transform="translate(0,0)"/>
+    <use href="#fo" transform="translate(0,75)"/>
+  </g>
+
+  <!-- *fu (18) -->
+  <g id="*fu">
+    <use href="#*" transform="translate(0,0)"/>
+    <use href="#fu" transform="translate(0,75)"/>
+  </g>
+
+  <!-- *zho (19) -->
+  <g id="*zho">
+    <use href="#*" transform="translate(0,0)"/>
+    <use href="#zho" transform="translate(0,75)"/>
+  </g>
+
+  <!-- *kap (1A) -->
+  <g id="*kap">
+    <use href="#*" transform="translate(0,0)"/>
+    <use href="#kap" transform="translate(0,75)"/>
+  </g>
+
+  <!-- *sh (1B) -->
+  <g id="*sh">
+    <use href="#*" transform="translate(0,0)"/>
+    <use href="#sh" transform="translate(0,75)"/>
+  </g>
+
+  <!-- po* (20) -->
+  <g id="po*">
+    <use href="#po" transform="translate(0,0)"/>
+    <use href="#*" transform="translate(150,0)"/>
+  </g>
+
+  <!-- po*u (21) -->
+  <g id="po*u">
+    <use href="#po" transform="translate(0,0)"/>
+    <use href="#*u" transform="translate(150,0)"/>
+  </g>
+
+  <!-- po*po (22) -->
+  <g id="po*po">
+    <use href="#po" transform="translate(0,0)"/>
+    <use href="#*po" transform="translate(150,0)"/>
+  </g>
+
+  <!-- po*ush (23) -->
+  <g id="po*ush">
+    <use href="#po" transform="translate(0,0)"/>
+    <use href="#*ush" transform="translate(150,0)"/>
+  </g>
+
+  <!-- po*ak (24) -->
+  <g id="po*ak">
+    <use href="#po" transform="translate(0,0)"/>
+    <use href="#*ak" transform="translate(150,0)"/>
+  </g>
+
+  <!-- po*mba (25) -->
+  <g id="po*mba">
+    <use href="#po" transform="translate(0,0)"/>
+    <use href="#*mba" transform="translate(150,0)"/>
+  </g>
+
+  <!-- po*mbu (26) -->
+  <g id="po*mbu">
+    <use href="#po" transform="translate(0,0)"/>
+    <use href="#*mbu" transform="translate(150,0)"/>
+  </g>
+
+  <!-- po*fo (27) -->
+  <g id="po*fo">
+    <use href="#po" transform="translate(0,0)"/>
+    <use href="#*fo" transform="translate(150,0)"/>
+  </g>
+
+  <!-- po*fu (28) -->
+  <g id="po*fu">
+    <use href="#po" transform="translate(0,0)"/>
+    <use href="#*fu" transform="translate(150,0)"/>
+  </g>
+
+  <!-- po*zho (29) -->
+  <g id="po*zho">
+    <use href="#po" transform="translate(0,0)"/>
+    <use href="#*zho" transform="translate(150,0)"/>
+  </g>
+
+  <!-- po*kap (2A) -->
+  <g id="po*kap">
+    <use href="#po" transform="translate(0,0)"/>
+    <use href="#*kap" transform="translate(150,0)"/>
+  </g>
+
+  <!-- po*sh (2B) -->
+  <g id="po*sh">
+    <use href="#po" transform="translate(0,0)"/>
+    <use href="#*sh" transform="translate(150,0)"/>
+  </g>
+
+  <!-- ush* (30) -->
+  <g id="ush*">
+    <use href="#ush" transform="translate(0,0)"/>
+    <use href="#*" transform="translate(150,0)"/>
+  </g>
+
+  <!-- ush*u (31) -->
+  <g id="ush*u">
+    <use href="#ush" transform="translate(0,0)"/>
+    <use href="#*u" transform="translate(150,0)"/>
+  </g>
+
+  <!-- ush*po (32) -->
+  <g id="ush*po">
+    <use href="#ush" transform="translate(0,0)"/>
+    <use href="#*po" transform="translate(150,0)"/>
+  </g>
+
+  <!-- ush*ush (33) -->
+  <g id="ush*ush">
+    <use href="#ush" transform="translate(0,0)"/>
+    <use href="#*ush" transform="translate(150,0)"/>
+  </g>
+
+  <!-- ush*ak (34) -->
+  <g id="ush*ak">
+    <use href="#ush" transform="translate(0,0)"/>
+    <use href="#*ak" transform="translate(150,0)"/>
+  </g>
+
+  <!-- ush*mba (35) -->
+  <g id="ush*mba">
+    <use href="#ush" transform="translate(0,0)"/>
+    <use href="#*mba" transform="translate(150,0)"/>
+  </g>
+
+  <!-- ush*mbu (36) -->
+  <g id="ush*mbu">
+    <use href="#ush" transform="translate(0,0)"/>
+    <use href="#*mbu" transform="translate(150,0)"/>
+  </g>
+
+  <!-- ush*fo (37) -->
+  <g id="ush*fo">
+    <use href="#ush" transform="translate(0,0)"/>
+    <use href="#*fo" transform="translate(150,0)"/>
+  </g>
+
+  <!-- ush*fu (38) -->
+  <g id="ush*fu">
+    <use href="#ush" transform="translate(0,0)"/>
+    <use href="#*fu" transform="translate(150,0)"/>
+  </g>
+
+  <!-- ush*zho (39) -->
+  <g id="ush*zho">
+    <use href="#ush" transform="translate(0,0)"/>
+    <use href="#*zho" transform="translate(150,0)"/>
+  </g>
+
+  <!-- ush*kap (3A) -->
+  <g id="ush*kap">
+    <use href="#ush" transform="translate(0,0)"/>
+    <use href="#*kap" transform="translate(150,0)"/>
+  </g>
+
+  <!-- ush*sh (3B) -->
+  <g id="ush*sh">
+    <use href="#ush" transform="translate(0,0)"/>
+    <use href="#*sh" transform="translate(150,0)"/>
+  </g>
+
+  <!-- ak* (40) -->
+  <g id="ak*">
+    <use href="#ak" transform="translate(0,0)"/>
+    <use href="#*" transform="translate(200,0)"/>
+  </g>
+
+  <!-- ak*u (41) -->
+  <g id="ak*u">
+    <use href="#ak" transform="translate(0,0)"/>
+    <use href="#*u" transform="translate(200,0)"/>
+  </g>
+
+  <!-- ak*po (42) -->
+  <g id="ak*po">
+    <use href="#ak" transform="translate(0,0)"/>
+    <use href="#*po" transform="translate(200,0)"/>
+  </g>
+
+  <!-- ak*ush (43) -->
+  <g id="ak*ush">
+    <use href="#ak" transform="translate(0,0)"/>
+    <use href="#*ush" transform="translate(200,0)"/>
+  </g>
+
+  <!-- ak*ak (44) -->
+  <g id="ak*ak">
+    <use href="#ak" transform="translate(0,0)"/>
+    <use href="#*ak" transform="translate(200,0)"/>
+  </g>
+
+  <!-- ak*mba (45) -->
+  <g id="ak*mba">
+    <use href="#ak" transform="translate(0,0)"/>
+    <use href="#*mba" transform="translate(200,0)"/>
+  </g>
+
+  <!-- ak*mbu (46) -->
+  <g id="ak*mbu">
+    <use href="#ak" transform="translate(0,0)"/>
+    <use href="#*mbu" transform="translate(200,0)"/>
+  </g>
+
+  <!-- ak*fo (47) -->
+  <g id="ak*fo">
+    <use href="#ak" transform="translate(0,0)"/>
+    <use href="#*fo" transform="translate(200,0)"/>
+  </g>
+
+  <!-- ak*fu (48) -->
+  <g id="ak*fu">
+    <use href="#ak" transform="translate(0,0)"/>
+    <use href="#*fu" transform="translate(200,0)"/>
+  </g>
+
+  <!-- ak*zho (49) -->
+  <g id="ak*zho">
+    <use href="#ak" transform="translate(0,0)"/>
+    <use href="#*zho" transform="translate(200,0)"/>
+  </g>
+
+  <!-- ak*kap (4A) -->
+  <g id="ak*kap">
+    <use href="#ak" transform="translate(0,0)"/>
+    <use href="#*kap" transform="translate(200,0)"/>
+  </g>
+
+  <!-- ak*sh (4B) -->
+  <g id="ak*sh">
+    <use href="#ak" transform="translate(0,0)"/>
+    <use href="#*sh" transform="translate(200,0)"/>
+  </g>
+
+  <!-- mba* (50) -->
+  <g id="mba*">
+    <use href="#mba" transform="translate(0,0)"/>
+    <use href="#*" transform="translate(200,0)"/>
+  </g>
+  
 <!-- WORDS -->
   <!-- kofa -->
   <g id="kofa">
