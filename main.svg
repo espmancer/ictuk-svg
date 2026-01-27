@@ -626,49 +626,78 @@
     <use href="#zh" transform="translate(100,0)"/>
   </g>
   <!-- fazhk -->
-  <g id="temp">
+  <g id="fazhk">
     <use href="#f" transform="translate(0,0)"/>
     <use href="#a" transform="translate(75,0)"/>
     <use href="#zh" transform="translate(150,0)"/>
     <use href="#k" transform="translate(175,0)"/>
   </g>
   <!-- fazho -->
-  <g id="temp">
+  <g id="fazho">
     <use href="#f" transform="translate(0,0)"/>
+    <use href="#a" transform="translate(75,0)"/>
+    <use href="#zh" transform="translate(150,0)"/>
+    <use href="#o" transform="translate(175,0)"/>
   </g>
   <!-- nguho -->
-  <g id="temp">
-    <use href="#f" transform="translate(0,0)"/>
+  <g id="nguho">
+    <use href="#ng" transform="translate(0,0)"/>
+    <use href="#u" transform="translate(75,0)"/>
+    <use href="#h" transform="translate(150,0)"/>
+    <use href="#o" transform="translate(225,50)"/>
   </g>
   <!-- nguho* -->
-  <g id="temp">
-    <use href="#f" transform="translate(0,0)"/>
+  <g id="nguho*">
+    <use href="#ng" transform="translate(0,0)"/>
+    <use href="#u" transform="translate(75,0)"/>
+    <use href="#h" transform="translate(150,0)"/>
+    <use href="#o" transform="translate(225,0)"/>
+    <use href="#*" transform="translate(300,0)"/>
   </g>
   <!-- oughktuk -->
-  <g id="temp">
-    <use href="#f" transform="translate(0,0)"/>
+  <g id="oughktuk">
+    <use href="#ough" transform="translate(0,50)"/>
+    <use href="#k" transform="translate(25,0)"/>
+    <use href="#t" transform="translate(50,0)"/>
+    <use href="#u" transform="translate(125,0)"/>
+    <use href="#k" transform="translate(200,0)"/>
   </g>
-  <!-- oughktuza -->
-  <g id="temp">
-    <use href="#f" transform="translate(0,0)"/>
+  <!-- oughktuzha -->
+  <g id="oughktuzha">
+    <use href="#ough" transform="translate(0,50)"/>
+    <use href="#k" transform="translate(25,0)"/>
+    <use href="#t" transform="translate(50,0)"/>
+    <use href="#u" transform="translate(125,0)"/>
+    <use href="#zh" transform="translate(200,0)"/>
+    <use href="#a" transform="translate(225,0)"/>
   </g>
   <!-- pung -->
-  <g id="temp">
-    <use href="#f" transform="translate(0,0)"/>
+  <g id="pung">
+    <use href="#p" transform="translate(0,0)"/>
+    <use href="#u" transform="translate(75,0)"/>
+    <use href="#ng" transform="translate(150,0)"/>
   </g>
   <!-- tuf -->
-  <g id="temp">
-    <use href="#f" transform="translate(0,0)"/>
+  <g id="tuf">
+    <use href="#t" transform="translate(0,0)"/>
+    <use href="#u" transform="translate(75,50)"/>
+    <use href="#f" transform="translate(150,50)"/>
   </g>
-  <!-- tuz -->
-  <g id="temp">
-    <use href="#f" transform="translate(0,0)"/>
+  <!-- tuzh -->
+  <g id="tuzh">
+    <use href="#t" transform="translate(0,0)"/>
+    <use href="#u" transform="translate(75,50)"/>
+    <use href="#zh" transform="translate(150,50)"/>
   </g>
   <!-- uk -->
+  <g id="uk">
+    <use href="#u" transform="translate(0,0)"/>
+    <use href="#k" transform="translate(75,0)"/>
+  </g>
+  <!-- ukosh -->
   <g id="temp">
     <use href="#f" transform="translate(0,0)"/>
   </g>
-  <!-- ukosh -->
   <!-- zhoughb -->
   <!-- zhoughk -->
   <!-- osh -->
