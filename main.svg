@@ -1,7 +1,7 @@
 
 <svg xmlns="http://www.w3.org/2000/svg"
    width="2000" height="950"
-   viewBox="0 0 1000 900">
+   viewBox="0 0 1300 900">
 
 <!-- ===== GLYPH DEFINITIONS (LOCAL COORDS ONLY) ===== -->
 <defs>
@@ -104,11 +104,21 @@
     <line x1="0" y1="50" x2="50" y2="100"/>
   </g>
 <!-- PUNCTUATION -->
-  <!-- period -->
-  <g id="period">
+  <!-- . -->
+  <g id=".">
     <line x1="0" y1="0" x2="0" y2="50"/>
     <line x1="0" y1="50" x2="50" y2="100"/>
     <line x1="0" y1="50" x2="-50" y2="100"/>
+  </g>
+  <!-- ? -->
+  <g id="?">
+    <use href="#." transform="translate(0,50) scale(1,-1)"/>
+  </g>
+  <!-- ! -->
+  <g id="!">
+    <line x1="0" y1="50" x2="0" y2="-50"/>
+    <line x1="0" y1="50" x2="50" y2="0"/>
+    <line x1="0" y1="-50" x2="50" y2="-50"/>
   </g>
 
 <!-- NUMBERS -->
@@ -720,7 +730,16 @@
   <!-- pozhpo -->
   <!-- ozhpo -->
   <!-- fazh -->
+  <g id="fazh">
+    <use href="#f" transform="translate(0,0)"/>
+    <use href="#a" transform="translate(75,0)"/>
+    <use href="#zh" transform="translate(150,0)"/>
+  </g>
   <!-- oughp -->
+  <g id="oughp">
+    <use href="#ough" transform="translate(0,50)"/>
+    <use href="#p" transform="translate(75,0)"/>
+  </g>
   <!-- shougho -->
   <!-- fough -->
   <!-- awtshaw -->
@@ -739,7 +758,14 @@
 <g stroke="black" stroke-width="10" stroke-linecap="square" fill="none">
   <!-- Copy this use tag for as many glyphs as you want. 
        Change the id to the romanized version of the glyph you want,
-       or if you're using a word/number, change the id to that. -->
-  <use href="#temp" transform="translate(50,0)"/> 
+       or if you're using a word/number, change the id to that. --> 
+  <!-- Fazhkofaosh fazhupa. -->
+  <use href="#o" transform="translate(125,-75)"/>
+  <use href="#akozh" transform="translate(125,0)"/>
+  <use href="#but" transform="translate(325,0)"/>
+
+  <use href="#tuf" transform="translate(550,0)"/>     
+  <use href="#!" transform="translate(700,50)"/> 
+      
 </g>
 </svg>
