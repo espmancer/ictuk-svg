@@ -571,6 +571,52 @@
     <use href="#k" transform="translate(200,0)"/> 
   </g>
 
+  <!-- fash -->
+  <!-- apa -->
+  <!-- mbupa -->
+  <!-- fotap -->
+  <!-- fotash -->
+  <!-- akozh -->
+  <!-- but -->
+  <!-- buz -->
+  <!-- fazhk -->
+  <!-- fazho -->
+  <!-- nguho -->
+  <!-- nguho* -->
+  <!-- oughktuk -->
+  <!-- oughktuza -->
+  <!-- pung -->
+  <!-- tuf -->
+  <!-- tuz -->
+  <!-- uk -->
+  <!-- ukosh -->
+  <!-- zhoughb -->
+  <!-- zhoughk -->
+  <!-- osh -->
+  <!-- fazhupa -->
+  <!-- fapopa -->
+  <!-- fushapa -->
+  <!-- fazhaka -->
+  <!-- fazhmbapa -->
+  <!-- fazhmbupa -->
+  <!-- kazhf -->
+  <!-- ta -->
+  <!-- ngu -->
+  <!-- nguosh -->
+  <!-- onguho* -->
+  <!-- posh -->
+  <!-- poshpo -->
+  <!-- oshpo -->
+  <!-- pozh -->
+  <!-- ozh -->
+  <!-- pozhpo -->
+  <!-- ozhpo -->
+  <!-- fazh -->
+  <!-- oughp -->
+  <!-- shougho -->
+  <!-- fough -->
+  <!-- awtshaw -->
+  <!-- fazhku -->
 <!-- PHRASES -->
   <!-- fazhoofazhoughktuf -->
   <g id="fazhoofazhoughktuf">
@@ -586,7 +632,6 @@
   <!-- Copy this use tag for as many glyphs as you want. 
        Change the id to the romanized version of the glyph you want,
        or if you're using a word/number, change the id to that. -->
-  <use href="#k" transform="translate(50,0)"/> 
+  <use href="#temp" transform="translate(100,0)"/> 
 </g>
 </svg>
-
