@@ -705,19 +705,36 @@
     <use href="#k" transform="translate(75,0)"/>
   </g>
   <!-- ukosh -->
-  <g id="temp">
-    <use href="#f" transform="translate(0,0)"/>
+  <g id="ukosh">
+    <use href="#uk" transform="translate(0,0)"/>
+    <use href="#osh" transform="translate(100,0)">
   </g>
   <!-- zhoughb -->
   <!-- zhoughk -->
   <!-- osh -->
+  <g id="osh">
+    <use href="#o" transform="translate(0,0)"/>
+    <use href="#sh" transform="translate(75,0)"/>
+  </g>
   <!-- fazhupa -->
+  <g id="fazhupa">
+    <use href="#fazh" transform="translate(0,0)"/>
+    <use href="#u" transform="translate(175,0)"/>
+    <use href="#p" transform="translate(250,0)"/>
+    <use href="#a" transform="translate(325,0)"/>
+  </g>
   <!-- fapopa -->
   <!-- fushapa -->
   <!-- fazhaka -->
   <!-- fazhmbapa -->
   <!-- fazhmbupa -->
   <!-- kazhf -->
+  <g id="kazhf">
+    <use href="#k" transform="translate(0,0)"/>
+    <use href="#a" transform="translate(25,0)"/>
+    <use href="#zh" transform="translate(100,50)"/>
+    <use href="#f" transform="translate(125,50)"/>
+  </g>
   <!-- ta -->
   <!-- ngu -->
   <!-- nguosh -->
@@ -742,8 +759,24 @@
   </g>
   <!-- shougho -->
   <!-- fough -->
-  <!-- awtshaw -->
+  <!-- atsha -->
+  <g id="atsha">
+    <use href="#a" transform="translate(0,0)"/>
+    <use href="#t" transform="translate(25,0)"/>
+    <use href="#sh" transform="translate(100,0)"/>
+  </g>
   <!-- fazhku -->
+  <!-- hapo -->
+  <g id="hapo">
+    <use href="#h" transform="translate(0,0)"/>
+    <use href="#a" transform="translate(75,0)"/>
+    <use href="#po" transform="translate(150,0)"/>
+  </g>
+  <!-- sha -->
+  <g id="sha">
+    <use href="#sh" transform="translate(0,0)"/>
+    <use href="#a" transform="translate(75,0)"/>
+  </g>
 <!-- PHRASES -->
   <!-- fazhoofazhoughktuf -->
   <g id="fazhoofazhoughktuf">
@@ -759,13 +792,13 @@
   <!-- Copy this use tag for as many glyphs as you want. 
        Change the id to the romanized version of the glyph you want,
        or if you're using a word/number, change the id to that. --> 
-  <!-- Fazhkofaosh fazhupa. -->
-  <use href="#o" transform="translate(125,-75)"/>
-  <use href="#akozh" transform="translate(125,0)"/>
-  <use href="#but" transform="translate(325,0)"/>
-
-  <use href="#tuf" transform="translate(550,0)"/>     
-  <use href="#!" transform="translate(700,50)"/> 
-      
+  <!-- Fazhongpaoughktuzha kazhfukoshpozh shaapa. -->
+  <use href="#fazho" transform="translate(25,575)"/>
+  <use href="#ngpa" transform="translate(25,700)"/>
+  <use href="#oughktuzha" transform="translate(25,825)"/>
+  
+  <use href="#kazhf" transform="translate(375,825)"/>
+  <use href="#ukosh" transform="translate(575,825)"/>
+  <use href="#pozh" transform="translate(600,825)"/>
 </g>
 </svg>
