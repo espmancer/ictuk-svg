@@ -757,15 +757,18 @@
     <use href="#a" transform="translate(175,0)"/>
   </g>
   <!-- fazhmbapa -->
-  <g id="temp">
+  <g id="fazhmbapa">
     <use href="#fazh" transform="translate(0,0)"/>
-    <use href="#mba" transform="translate(75,0)"/>
-    <use href="#p" transform="translate(225,0)"/>
-    <use href="#a" transform="translate(300,0)"/>
+    <use href="#mba" transform="translate(175,0)"/>
+    <use href="#p" transform="translate(325,0)"/>
+    <use href="#a" transform="translate(400,0)"/>
   </g>
   <!-- fazhmbupa -->
-  <g id="temp">
-    <use href="#f" transform="translate(0,0)"/>
+  <g id="fazhmbupa">
+    <use href="#fazh" transform="translate(0,0)"/>
+    <use href="#mbu" transform="translate(175,0)"/>
+    <use href="#p" transform="translate(325,0)"/>
+    <use href="#a" transform="translate(400,0)"/>
   </g>
   <!-- kazhf -->
   <g id="kazhf">
@@ -775,49 +778,67 @@
     <use href="#f" transform="translate(125,50)"/>
   </g>
   <!-- ta -->
-  <g id="temp">
+  <g id="ta">
     <use href="#t" transform="translate(0,0)"/>
-    <use href="#a" transform="translate(50,0)"/>
+    <use href="#a" transform="translate(75,0)"/>
   </g>
   <!-- ngu -->
-  <g id="temp">
-    <use href="#f" transform="translate(0,0)"/>
+  <g id="ngu">
+    <use href="#ng" transform="translate(0,0)"/>
+    <use href="#u" transform="translate(75,0)"/>
   </g>
   <!-- nguosh -->
-  <g id="temp">
-    <use href="#f" transform="translate(0,0)"/>
+  <g id="nguosh">
+    <use href="#ngu" transform="translate(0,0)"/>
+    <use href="#osh" transform="translate(75,75)"/>
   </g>
   <!-- nguuho* -->
-  <g id="temp">
-    <use href="#f" transform="translate(0,0)"/>
+  <g id="nguuho*">
+    <use href="#ngu" transform="translate(0,0)"/>
+    <use href="#u" transform="translate(75,0)"/>
+    <use href="#h" transform="translate(150,0)"/>
+    <use href="#o" transform="translate(225,0)"/>
+    <use href="#*" transform="translate(300,0)"/>
+  </g>
+  <!-- ngufazh -->
+  <g id="ngufazh">
+    <use href="#ngu" transform="translate(0,0)"/>
+    <use href="#fazh" transform="translate(150,0)"/>
   </g>
   <!-- posh -->
-  <g id="temp">
-    <use href="#f" transform="translate(0,0)"/>
+  <g id="posh">
+    <use href="#po" transform="translate(0,0)"/>
+    <use href="#sh" transform="translate(100,50)"/>
   </g>
   <!-- poshpo -->
-  <g id="temp">
-    <use href="#f" transform="translate(0,0)"/>
+  <g id="poshpo">
+    <use href="#posh" transform="translate(0,0)"/>
+    <use href="#po" transform="translate(175,0)"/>
   </g>
   <!-- oshpo -->
-  <g id="temp">
-    <use href="#f" transform="translate(0,0)"/>
+  <g id="oshpo">
+    <use href="#osh" transform="translate(0,50)"/>
+    <use href="#po" transform="translate(150,0)"/>
   </g>
   <!-- pozh -->
-  <g id="temp">
-    <use href="#f" transform="translate(0,0)"/>
+  <g id="pozh">
+    <use href="#po" transform="translate(0,0)"/>
+    <use href="#zh" transform="translate(100,50)"/>
   </g>
   <!-- ozh -->
-  <g id="temp">
-    <use href="#f" transform="translate(0,0)"/>
+  <g id="ozh">
+    <use href="#o" transform="translate(0,0)"/>
+    <use href="#zh" transform="translate(75,0)"/>
   </g>
   <!-- pozhpo -->
-  <g id="temp">
-    <use href="#f" transform="translate(0,0)"/>
+  <g id="pozhpo">
+    <use href="#pozh" transform="translate(0,0)"/>
+    <use href="#po" transform="translate(125,0)"/>
   </g>
   <!-- ozhpo -->
-  <g id="temp">
-    <use href="#f" transform="translate(0,0)"/>
+  <g id="ozhpo">
+    <use href="#ozh" transform="translate(0,50)"/>
+    <use href="#po" transform="translate(100,0)"/>
   </g>
   <!-- fazh -->
   <g id="fazh">
@@ -831,12 +852,15 @@
     <use href="#p" transform="translate(75,0)"/>
   </g>
   <!-- shougho -->
-  <g id="temp">
-    <use href="#f" transform="translate(0,0)"/>
+  <g id="shougho">
+    <use href="#sh" transform="translate(0,0)"/>
+    <use href="#ough" transform="translate(75,0)"/>
+    <use href="#o" transform="translate(75,75)"/>
   </g>
   <!-- fough -->
-  <g id="temp">
+  <g id="fough">
     <use href="#f" transform="translate(0,0)"/>
+    <use href="#ough" transform="translate(75,0)"/>
   </g>
   <!-- atsha -->
   <g id="atsha">
@@ -845,8 +869,10 @@
     <use href="#sh" transform="translate(100,0)"/>
   </g>
   <!-- fazhku -->
-  <g id="temp">
-    <use href="#f" transform="translate(0,0)"/>
+  <g id="fazhku">
+    <use href="#fazh" transform="translate(0,0)"/>
+    <use href="#k" transform="translate(150,0)"/>
+    <use href="#u" transform="translate(175,0)"/>
   </g>
   <!-- hapo -->
   <g id="hapo">
@@ -859,6 +885,18 @@
     <use href="#sh" transform="translate(0,0)"/>
     <use href="#a" transform="translate(75,0)"/>
   </g>
+  <!-- fushka -->
+  <g id="fushka">
+    <use href="#f" transform="translate(0,50)"/>
+    <use href="#ush" transform="translate(75,50)"/>
+    <use href="#k" transform="translate(175,0)"/>
+    <use href="#a" transform="translate(200,0)"/>
+  </g>
+  <!-- fushkaosh -->
+  <g id="fushkaosh">
+    <use href="#fushka" transform="translate(0,0)"/>
+    <use href="#osh" transform="translate(275,50)"/>
+  </g>
 </defs>
 
 <!-- ===== RENDERING ===== -->
@@ -867,6 +905,6 @@
        Change the id to the romanized version of the glyph you want,
        or if you're using a word/number, change the id to that. --> 
   <!-- Fazhongpaoughktuzha kazhfukoshpozh shaapa. -->
-  <use href="#temp" transform="translate(25,575)"/>
+  <use href="#k" transform="translate(25,575)"/>
 </g>
 </svg>
