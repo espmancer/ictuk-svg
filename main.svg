@@ -907,6 +907,51 @@
     <use href="#sh" transform="translate(0,0)"/>
     <use href="#o" transform="translate(0,75)"/>
   </g>
+  <!-- fashotopa -->
+  <g id="fashotopa">
+    <use href="#f" transform="translate(0,0)"/>
+    <use href="#a" transform="translate(75,0)"/>
+    <use href="#sh" transform="translate(150,0)"/>
+    <use href="#o" transform="translate(150,75)"/>
+    <use href="#t" transform="translate(175,0)"/>
+    <use href="#o" transform="translate(250,0)"/>
+    <use href="#p" transform="translate(325,0)"/>
+    <use href="#a" transform="translate(400,0)"/>
+  </g>
+  <!-- akozhfotapa -->
+  <g id="akozhfotapa">
+    <use href="#akozh" transform="translate(0,0)"/>
+    <use href="#fotapa" transform="translate(200,0)"/>
+  </g>
+  <!-- fotapa -->
+  <g id="fotapa">
+    <use href="#f" transform="translate(0,0)"/>
+    <use href="#o" transform="translate(0,75)"/>
+    <use href="#t" transform="translate(75,0)"/>
+    <use href="#a" transform="translate(150,0)"/>
+    <use href="#p" transform="translate(225,0)"/>
+    <use href="#a" transform="translate(300,0)"/>
+  </g>
+  <!-- fashfotapa -->
+  <g id="fashfotapa">
+    <use href="#fash" transform="translate(0,0)"/>
+    <use href="#fotapa" transform="translate(225,0)"/>
+  </g>
+  <!-- apaa -->
+  <g id="apaa">
+    <use href="#apa" transform="translate(0,0)"/>
+    <use href="#a" transform="translate(225,0)"/>
+  </g>
+  <!-- apao -->
+  <g id="apao">
+    <use href="#apa" transform="translate(0,0)"/>
+    <use href="#o" transform="translate(225,0)"/>
+  </g>
+  <!-- apaoa -->
+  <g id="apaoa">
+    <use href="#apao" transform="translate(0,0)"/>
+    <use href="#a" transform="translate(300,0)"/>
+  </g>
 </defs>
 
 <!-- ===== RENDERING ===== -->
@@ -914,7 +959,7 @@
   <!-- Copy this use tag for as many glyphs as you want. 
        Change the id to the romanized version of the glyph you want,
        or if you're using a word/number, change the id to that. --> 
-  <!-- Fazhongpaoughktuzha kazhfukoshpozh shaapa. -->
-  <use href="#sho" transform="translate(25,575)"/>
+ 
+  <use href="#temp" transform="translate(25,575)"/>
 </g>
 </svg>
