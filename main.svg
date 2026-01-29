@@ -710,7 +710,17 @@
     <use href="#osh" transform="translate(100,0)">
   </g>
   <!-- zhoughb -->
+  <g id="zhoughb">
+    <use href="#zh" transform="translate(0,0)"/>
+    <use href="#ough" transform="translate(25,0)"/>
+    <use href="#b" transform="translate(100,0)"/>
+  </g>
   <!-- zhoughk -->
+  <g id="zhoughk">
+    <use href="#zh" transform="translate(0,0)"/>
+    <use href="#ough" transform="translate(25,0)"/>
+    <use href="#k" transform="translate(100,0)"/>
+  </g>
   <!-- osh -->
   <g id="osh">
     <use href="#o" transform="translate(0,0)"/>
@@ -724,10 +734,39 @@
     <use href="#a" transform="translate(325,0)"/>
   </g>
   <!-- fapopa -->
+  <g id="fapopa">
+    <use href="#f" transform="translate(0,0)"/>
+    <use href="#a" transform="translate(75,0)"/>
+    <use href="#po" transform="translate(150,0)"/>
+    <use href="#p" transform="translate(250,0)"/>
+    <use href="#a" transform="translate(325,0)"/>
+  </g>
   <!-- fushapa -->
+  <g id="fushapa">
+    <use href="#f" transform="translate(0,0)"/>
+    <use href="#u" transform="translate(0,75)"/>
+    <use href="#sh" transform="translate(75,0)"/>
+    <use href="#a" transform="translate(150,0)"/>
+    <use href="#p" transform="translate(225,0)"/>
+    <use href="#a" transform="translate(300,0)"/>
+  </g>
   <!-- fazhaka -->
+  <g id="fazhaka">
+    <use href="#fazh" transform="translate(0,0)"/>
+    <use href="#ak" transform="translate(75,0)"/>
+    <use href="#a" transform="translate(175,0)"/>
+  </g>
   <!-- fazhmbapa -->
+  <g id="temp">
+    <use href="#fazh" transform="translate(0,0)"/>
+    <use href="#mba" transform="translate(75,0)"/>
+    <use href="#p" transform="translate(225,0)"/>
+    <use href="#a" transform="translate(300,0)"/>
+  </g>
   <!-- fazhmbupa -->
+  <g id="temp">
+    <use href="#f" transform="translate(0,0)"/>
+  </g>
   <!-- kazhf -->
   <g id="kazhf">
     <use href="#k" transform="translate(0,0)"/>
@@ -736,16 +775,50 @@
     <use href="#f" transform="translate(125,50)"/>
   </g>
   <!-- ta -->
+  <g id="temp">
+    <use href="#t" transform="translate(0,0)"/>
+    <use href="#a" transform="translate(50,0)"/>
+  </g>
   <!-- ngu -->
+  <g id="temp">
+    <use href="#f" transform="translate(0,0)"/>
+  </g>
   <!-- nguosh -->
-  <!-- onguho* -->
+  <g id="temp">
+    <use href="#f" transform="translate(0,0)"/>
+  </g>
+  <!-- nguuho* -->
+  <g id="temp">
+    <use href="#f" transform="translate(0,0)"/>
+  </g>
   <!-- posh -->
+  <g id="temp">
+    <use href="#f" transform="translate(0,0)"/>
+  </g>
   <!-- poshpo -->
+  <g id="temp">
+    <use href="#f" transform="translate(0,0)"/>
+  </g>
   <!-- oshpo -->
+  <g id="temp">
+    <use href="#f" transform="translate(0,0)"/>
+  </g>
   <!-- pozh -->
+  <g id="temp">
+    <use href="#f" transform="translate(0,0)"/>
+  </g>
   <!-- ozh -->
+  <g id="temp">
+    <use href="#f" transform="translate(0,0)"/>
+  </g>
   <!-- pozhpo -->
+  <g id="temp">
+    <use href="#f" transform="translate(0,0)"/>
+  </g>
   <!-- ozhpo -->
+  <g id="temp">
+    <use href="#f" transform="translate(0,0)"/>
+  </g>
   <!-- fazh -->
   <g id="fazh">
     <use href="#f" transform="translate(0,0)"/>
@@ -758,7 +831,13 @@
     <use href="#p" transform="translate(75,0)"/>
   </g>
   <!-- shougho -->
+  <g id="temp">
+    <use href="#f" transform="translate(0,0)"/>
+  </g>
   <!-- fough -->
+  <g id="temp">
+    <use href="#f" transform="translate(0,0)"/>
+  </g>
   <!-- atsha -->
   <g id="atsha">
     <use href="#a" transform="translate(0,0)"/>
@@ -766,6 +845,9 @@
     <use href="#sh" transform="translate(100,0)"/>
   </g>
   <!-- fazhku -->
+  <g id="temp">
+    <use href="#f" transform="translate(0,0)"/>
+  </g>
   <!-- hapo -->
   <g id="hapo">
     <use href="#h" transform="translate(0,0)"/>
@@ -777,14 +859,6 @@
     <use href="#sh" transform="translate(0,0)"/>
     <use href="#a" transform="translate(75,0)"/>
   </g>
-<!-- PHRASES -->
-  <!-- fazhoofazhoughktuf -->
-  <g id="fazhoofazhoughktuf">
-    <use href="#fazho" transform="translate(0,0)"/> 
-    <use href="#o" transform="translate(250,-75)"/> 
-    <use href="#fazhoughk" transform="translate(250,0)"/>
-    <use href="#tuf" transform="translate(475,0)"/>  
-  </g>
 </defs>
 
 <!-- ===== RENDERING ===== -->
@@ -793,12 +867,6 @@
        Change the id to the romanized version of the glyph you want,
        or if you're using a word/number, change the id to that. --> 
   <!-- Fazhongpaoughktuzha kazhfukoshpozh shaapa. -->
-  <use href="#fazho" transform="translate(25,575)"/>
-  <use href="#ngpa" transform="translate(25,700)"/>
-  <use href="#oughktuzha" transform="translate(25,825)"/>
-  
-  <use href="#kazhf" transform="translate(375,825)"/>
-  <use href="#ukosh" transform="translate(575,825)"/>
-  <use href="#pozh" transform="translate(600,825)"/>
+  <use href="#temp" transform="translate(25,575)"/>
 </g>
 </svg>
