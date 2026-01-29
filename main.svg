@@ -902,6 +902,11 @@
     <use href="#a" transform="translate(0,0)"/>
     <use href="#a" transform="translate(0,75)"/>
   </g>
+  <!-- sho -->
+  <g id="sho">
+    <use href="#sh" transform="translate(0,0)"/>
+    <use href="#o" transform="translate(0,75)"/>
+  </g>
 </defs>
 
 <!-- ===== RENDERING ===== -->
@@ -910,6 +915,6 @@
        Change the id to the romanized version of the glyph you want,
        or if you're using a word/number, change the id to that. --> 
   <!-- Fazhongpaoughktuzha kazhfukoshpozh shaapa. -->
-  <use href="#aa" transform="translate(25,575)"/>
+  <use href="#sho" transform="translate(25,575)"/>
 </g>
 </svg>
