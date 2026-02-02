@@ -952,6 +952,18 @@
     <use href="#apao" transform="translate(0,0)"/>
     <use href="#a" transform="translate(300,0)"/>
   </g>
+  <!-- Shoughhoo -->
+  <g id="shoughhoo">
+    <use href="#shougho" transform="translate(0,0)"/>
+    <use href="#o" transform="translate(150,0)"/>
+  </g>
+  <!-- Ukozhku -->
+  <g id="ukozhku">
+    <use href="#uk" transform="translate(25,575)"/>
+    <use href="#ozh" transform="translate(125,575)"/>
+    <use href="#k" transform="translate(225,575)"/>
+    <use href="#u" transform="translate(250,575)"/>
+  </g>
 </defs>
 
 <!-- ===== RENDERING ===== -->
@@ -959,7 +971,7 @@
   <!-- Copy this use tag for as many glyphs as you want. 
        Change the id to the romanized version of the glyph you want,
        or if you're using a word/number, change the id to that. --> 
- 
-  <use href="#temp" transform="translate(25,575)"/>
+  <use href="#shoughhoo" transform="translate(25,575)"/>
+  
 </g>
 </svg>
