@@ -964,6 +964,22 @@
     <use href="#k" transform="translate(225,575)"/>
     <use href="#u" transform="translate(250,575)"/>
   </g>
+  <!-- Tap -->
+  <g id="tap">
+    <use href="#ta" transform="translate(0,0)"/>
+    <use href="#p" transform="translate(150,0)"/>
+  </g>
+  <!-- Fa -->
+  <g id="fa">
+    <use href="#f" transform="translate(0,0)"/>
+    <use href="#a" transform="translate(75,0)"/>
+  </g>
+  <!-- Fa -->
+  <g id="fazhofa">
+    <use href="#fazho" transform="translate(0,0)"/>
+    <use href="#f" transform="translate(175,75)"/>
+    <use href="#a" transform="translate(250,0)"/>
+  </g>
 </defs>
 
 <!-- ===== RENDERING ===== -->
@@ -971,7 +987,7 @@
   <!-- Copy this use tag for as many glyphs as you want. 
        Change the id to the romanized version of the glyph you want,
        or if you're using a word/number, change the id to that. --> 
-  <use href="#shoughhoo" transform="translate(25,575)"/>
+  <use href="#fazhofa" transform="translate(25,575)"/>
   
 </g>
 </svg>
