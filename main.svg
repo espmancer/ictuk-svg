@@ -980,6 +980,24 @@
     <use href="#f" transform="translate(175,75)"/>
     <use href="#a" transform="translate(250,0)"/>
   </g>
+  <!-- akozho* -->
+  <g id="akozho*">
+    <use href="#akozh" transform="translate(0,0)"/>
+    <use href="#o" transform="translate(200,0)"/>
+    <use href="#*" transform="translate(275,0)"/>
+  </g>
+  <!-- papsho -->
+  <g id="papsho">
+    <use href="#p" transform="translate(0,0)"/>
+    <use href="#a" transform="translate(75,0)"/>
+    <use href="#p" transform="translate(150,0)"/>
+    <use href="#sho" transform="translate(225,0)"/>
+  </g>
+  <!-- papshongu -->
+  <g id="papshongu">
+    <use href="#papsho" transform="translate(0,0)"/>
+    <use href="#ngu" transform="translate(300,0)"/>
+  </g>
 </defs>
 
 <!-- ===== RENDERING ===== -->
@@ -987,7 +1005,7 @@
   <!-- Copy this use tag for as many glyphs as you want. 
        Change the id to the romanized version of the glyph you want,
        or if you're using a word/number, change the id to that. --> 
-  <use href="#fazhofa" transform="translate(25,575)"/>
+  <use href="#papshongu" transform="translate(25,575)"/>
   
 </g>
 </svg>
