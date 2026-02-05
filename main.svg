@@ -120,6 +120,15 @@
     <line x1="0" y1="50" x2="50" y2="0"/>
     <line x1="0" y1="-50" x2="50" y2="-50"/>
   </g>
+  <!-- , -->
+  <g id=",">
+    <line x1="0" y1="0" x2="0" y2="200"/>
+  </g>
+  <!-- -- -->
+  <g id="--">
+    <use href="#," transform="translate(0,0)"/>
+    <use href="#," transform="translate(25,0)"/>
+  </g>
 
 <!-- NUMBERS -->
   <!-- shazho (10^9) -->
@@ -1004,7 +1013,7 @@
     <use href="#t" transform="translate(25,0)"/>
   </g>
   <!-- Shoughpangu -->
-  <g id="Shoughpangu">
+  <g id="shoughpangu">
     <use href="#sh" transform="translate(0,0)"/>
     <use href="#ough" transform="translate(75,0)"/>
     <use href="#p" transform="translate(150,0)"/>
@@ -1168,6 +1177,48 @@
     <use href="#ough" transform="translate(25,0)"/>
     <use href="#k" transform="translate(100,0)"/>
   </g>
+  <!-- Papfasho -->
+  <g id="papfasho">
+    <use href="#p" transform="translate(0,0)"/>
+    <use href="#a" transform="translate(75,0)"/>
+    <use href="#p" transform="translate(150,0)"/>
+    <use href="#f" transform="translate(175,50)"/>
+    <use href="#a" transform="translate(250,0)"/>
+    <use href="#sh" transform="translate(325,0)"/>
+    <use href="#o" transform="translate(325,75)"/>
+  </g>
+  <!-- Opapfasho -->
+  <g id="opapfasho">
+    <use href="#o" transform="translate(0,-75)"/>
+    <use href="#papfasho" transform="translate(0,0)"/>
+  </g>
+  <!-- Katoughposho -->
+  <g id="katoughposho">
+    <use href="#k" transform="translate(0,0)"/>
+    <use href="#at" transform="translate(25,0)"/>
+    <use href="#ough" transform="translate(125,0)"/>
+    <use href="#posh" transform="translate(200,0)"/>
+    <use href="#o" transform="translate(375,50)"/>
+  </g>
+  <!-- Shtu -->
+  <g id="shtu">
+    <use href="#sh" transform="translate(0,0)"/>
+    <use href="#t" transform="translate(25,0)"/>
+    <use href="#u" transform="translate(100,0)"/>
+  </g>
+  <!-- Ufushka -->
+  <g id="ufushka">
+    <use href="#u" transform="translate(0,-75)"/>
+    <use href="#f" transform="translate(0,0)"/>
+    <use href="#ush" transform="translate(0,75)"/>
+    <use href="#k" transform="translate(100,25)"/>
+    <use href="#a" transform="translate(125,25)"/>
+  </g>
+  <!-- Apau -->
+  <g id="apau">
+    <use href="#apa" transform="translate(0,0)"/>
+    <use href="#u" transform="translate(225,0)"/>
+  </g>
 </defs>
 
 <!-- ===== RENDERING ===== -->
@@ -1175,7 +1226,7 @@
   <!-- Copy this use tag for as many glyphs as you want. 
        Change the id to the romanized version of the glyph you want,
        or if you're using a word/number, change the id to that. --> 
-  <use href="#temp" transform="translate(25,575)"/>
+  <use href="#apau" transform="translate(25,575)"/>
   
 </g>
 </svg>
