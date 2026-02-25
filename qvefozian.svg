@@ -1,5 +1,5 @@
 <!-- sample rectangle -->
-<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 150 150">
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg" viewbox="350 0 100 50">
   <def>
     <!-- Primitives -->
     <g id="arch">
@@ -13,10 +13,87 @@
       <circle cx="0" cy="0" r="25" fill="none" stroke="#000000" stroke-width="4"/>
     </g>
     <!-- Letters -->
+    <g id="a">
+      <use href="#base"/>
+    </g>
+    <g id="b">
+      <use href="#base"/>
+      <use href="#arch" transform="translate(0,-25) rotate(0)"/>
+    </g>
+    <g id="f">
+      <use href="#base"/>
+      <use href="#arch" transform="translate(0,-60) rotate(180)"/>
+    </g>
+    <g id="g">
+      <use href="#base"/>
+      <circle cx="0" cy="0" r="5" fill stroke="#000000" stroke-width="4"/>
+    </g>
+    <g id="gb">
+      <use href="#arch" transform="rotate(180)"/>
+    </g>
+    <g id="m">
+      <use href="#arch"/>
+    </g>
+    <g id="o">
+      <line x1="0" y1="0" x2="50" y2="0" stroke="black" stroke-width="4" transform="translate(-25,2)"/>
+      <use href="#gb"/>
+    </g>
     <g id="p">
-      
+      <use href="#o" transform="rotate(180)"/>
+    </g>
+    <g id="q">
+      <use href="#base"/>
+      <line x1="0" y1="0" x2="50" y2="0" stroke="black" stroke-width="4" transform="translate(-25,-35)"/>
+    </g>
+    <g id="qp">
+      <use href="#q" transform="rotate(180)"/>
+    </g>
+    <g id="qv">
+      <use href="#base"/>
+      <use href="#base" transform="translate(0,-50)"/>
+    </g>
+    <g id="tp">
+      <use href="#qv"/>
+      <use href="#arch" transform="translate(0,-110) rotate(180)"/>
+    </g>
+    <g id="u">
+      <use href="#qv"/>
+      <use href="#arch" transform="translate(0,-70)"/>
+    </g>
+    <g id="v">
+      <use href="#f"/>
+      <use href="#arch" transform="translate(0, 60)"/>
+    </g>
+    <g id="y">
+      <use href="#f"/>
+      <line x1="0" y1="0" x2="50" y2="0" stroke="black" stroke-width="4" transform="translate(-25,35)"/>
+    </g>
+    <g id="zCon">
+      <use href="#a"/>
+      <line x1="0" y1="0" x2="50" y2="0" stroke="black" stroke-width="4" transform="translate(-25,-35)"/>
+      <use href="#arch" transform="translate(0,-70) rotate(180)"/>
+    </g>
+    <g id="zVow">
+      <use href="#a"/>
+      <line x1="0" y1="0" x2="50" y2="0" stroke="black" stroke-width="4" transform="translate(-25,-35)"/>
+      <use href="#arch" transform="translate(0,-45)"/>
     </g>
   </def>
-  <use href="#base" transform="translate(100,50) rotate(180)"/>
-  <use href="#arch" transform="translate(100,75) rotate(180)"/>
+  <use href="#a" transform="translate(0,50)"/>
+  <use href="#b" transform="translate(100,50)"/>
+  <use href="#f" transform="translate(200,50)"/>
+  <use href="#g" transform="translate(300,50)"/>
+  <use href="#gb" transform="translate(400,50)"/>
+  <use href="#m" transform="translate(500,50)"/>
+  <use href="#o" transform="translate(600,50)"/>
+  <use href="#p" transform="translate(700,50)"/>
+  <use href="#q" transform="translate(800,50)"/>
+  <use href="#qp" transform="translate(900,50)"/>
+  <use href="#qv" transform="translate(1000,50)"/>
+  <use href="#tp" transform="translate(1100,50)"/>
+  <use href="#u" transform="translate(1200,50)"/>
+  <use href="#v" transform="translate(1300,50)"/>
+  <use href="#y" transform="translate(1400,50)"/>
+  <use href="#zCon" transform="translate(1500,50)"/>
+  <use href="#zVow" transform="translate(1600,50)"/>
 </svg>
