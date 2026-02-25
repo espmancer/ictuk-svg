@@ -1,5 +1,5 @@
 <!-- sample rectangle -->
-<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg" viewbox="350 0 100 50">
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 150 150">
   <def>
     <!-- Primitives -->
     <g id="arch">
@@ -78,22 +78,15 @@
       <line x1="0" y1="0" x2="50" y2="0" stroke="black" stroke-width="4" transform="translate(-25,-35)"/>
       <use href="#arch" transform="translate(0,-45)"/>
     </g>
+    <!-- Gesture Primitives -->
+    <g id="straight">
+      <line x1="0" y1="0" x2="50" y2="0" stroke="black" stroke-width="4" transform="translate(0,0)"/>
+    </g>
+    <g id="angled">
+      <line x1="0" y1="50" x2="50" y2="0" stroke="black" stroke-width="4" transform="translate(0,0)"/>
+    </g>
   </def>
-  <use href="#a" transform="translate(0,50)"/>
-  <use href="#b" transform="translate(100,50)"/>
-  <use href="#f" transform="translate(200,50)"/>
-  <use href="#g" transform="translate(300,50)"/>
-  <use href="#gb" transform="translate(400,50)"/>
-  <use href="#m" transform="translate(500,50)"/>
-  <use href="#o" transform="translate(600,50)"/>
-  <use href="#p" transform="translate(700,50)"/>
-  <use href="#q" transform="translate(800,50)"/>
-  <use href="#qp" transform="translate(900,50)"/>
-  <use href="#qv" transform="translate(1000,50)"/>
-  <use href="#tp" transform="translate(1100,50)"/>
-  <use href="#u" transform="translate(1200,50)"/>
-  <use href="#v" transform="translate(1300,50)"/>
-  <use href="#y" transform="translate(1400,50)"/>
-  <use href="#zCon" transform="translate(1500,50)"/>
-  <use href="#zVow" transform="translate(1600,50)"/>
+  <use href="#straight" transform="translate(50,50)"/>
+  <use href="#angled" transform="translate(100,49) scale(-1,1)"/>
+  
 </svg>
