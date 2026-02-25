@@ -1,0 +1,22 @@
+<!-- sample rectangle -->
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 150 150">
+  <def>
+    <!-- Primitives -->
+    <g id="arch">
+      <path
+        d="M -25 0 A 25 25 0 0 1 25 0"
+        fill="none"
+        stroke="black"
+        stroke-width="4"/>
+    </g>
+    <g id="base">
+      <circle cx="0" cy="0" r="25" fill="none" stroke="#000000" stroke-width="4"/>
+    </g>
+    <!-- Letters -->
+    <g id="p">
+      
+    </g>
+  </def>
+  <use href="#base" transform="translate(100,50) rotate(180)"/>
+  <use href="#arch" transform="translate(100,75) rotate(180)"/>
+</svg>
