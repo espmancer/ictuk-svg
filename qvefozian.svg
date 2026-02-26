@@ -20,6 +20,11 @@
       <use href="#base"/>
       <use href="#arch" transform="translate(0,-25) rotate(0)"/>
     </g>
+    <g id="e">
+      <use href="#a"/>
+      <use href="#straight", transform="translate(-25,-35)"/>
+      <use href="#straight", transform="translate(-25,-45)"/>
+    </g>
     <g id="f">
       <use href="#base"/>
       <use href="#arch" transform="translate(0,-60) rotate(180)"/>
@@ -86,7 +91,6 @@
       <line x1="0" y1="50" x2="50" y2="0" stroke="black" stroke-width="4" transform="translate(0,0)"/>
     </g>
   </def>
-  <use href="#straight" transform="translate(50,50)"/>
-  <use href="#angled" transform="translate(100,49) scale(-1,1)"/>
+  <use href="#e" transform="translate(50,50)"/>
   
 </svg>
