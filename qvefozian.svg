@@ -1,5 +1,5 @@
 <!-- sample rectangle -->
-<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 150 150">
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 250 100">
   <def>
     <!-- Primitives -->
     <g id="arch">
@@ -90,7 +90,58 @@
     <g id="angled">
       <line x1="0" y1="50" x2="50" y2="0" stroke="black" stroke-width="4" transform="translate(0,0)"/>
     </g>
+    <!-- Words -->
+    <g id="ao">
+      <use href="#a"/>
+      <use href="#o" transform="translate(60,0)"/>
+    </g>
+    <g id="oa">
+      <use href="#o"/>
+      <use href="#a" transform="translate(60,0)"/>
+    </g>
+    <g id="oo">
+      <use href="#o"/>
+      <use href="#o" transform="translate(60,0)"/>
+    </g>
+    <g id="aa">
+      <use href="#a"/>
+      <use href="#a" transform="translate(60,0)"/>
+    </g>
+    <g id="gao">
+      <use href="#g"/>
+      <use href="#ao" transform="translate(60,0)"/>
+    </g>
+    <g id="goa">
+      <use href="#g"/>
+      <use href="#oa" transform="translate(60,0)"/>
+    </g>
+    <g id="goo">
+      <use href="#g"/>
+      <use href="#oo" transform="translate(60,0)"/>
+    </g>
+    <g id="gaa">
+      <use href="#g"/>
+      <use href="#aa" transform="translate(60,0)"/>
+    </g>
+    <g id="qvem">
+      <use href="#qv"/>
+      <use href="#e" transform="translate(60,0)"/>
+      <use href="#m" transform="translate(120,0)"/>
+    </g>
+    <g id="tpag">
+      <use href="#tp"/>
+      <use href="#a" transform="translate(60,0)"/>
+      <use href="#g" transform="translate(120,0)"/>
+    </g>
+    <g id="me">
+      <use href="#m"/>
+      <use href="#e" transform="translate(60,0)"/>
+    </g>
+    <g id="em">
+      <use href="#e"/>
+      <use href="#m" transform="translate(60,0)"/>
+    </g>
   </def>
-  <use href="#e" transform="translate(50,50)"/>
+  <use href="#goa" transform="translate(50,50)"/>
   
 </svg>
