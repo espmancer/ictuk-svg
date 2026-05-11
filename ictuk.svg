@@ -124,7 +124,7 @@
   <g id=",">
     <line x1="0" y1="0" x2="0" y2="200"/>
   </g>
-  <!-- -- -->
+  <!-- em dash -->
   <g id="--">
     <use href="#," transform="translate(0,0)"/>
     <use href="#," transform="translate(25,0)"/>
